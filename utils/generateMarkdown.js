@@ -107,7 +107,11 @@ return '';
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  var title = `# ${data.title}\n\n`;
+  var license = ` ## License\n${renderLicenseSection(data.license)}\n\n`
+  var table_of_contents = `# Table of contents\n- [Description](#description)\n` +
+    `_ [Installation instructions](#installation-instructions)\n- [Usage](#usage)\n- [Contributing](#contributing)\n` + 
+
 
 `;
 }
