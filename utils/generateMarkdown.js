@@ -61,7 +61,49 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+
+  if (license == 'Apache 2.0'){
+    return `[![License]${renderLicenseBadge(license)}]${renderLicenseLink(license)}`;
+}
+
+if (license == 'Boost Software License 1.0'){
+  return `[![License]${renderLicenseBadge(license)}]${renderLicenseLink(license)}`;
+
+}
+
+if (license == 'BSD 3-Clause License'){
+  return `[![License]${renderLicenseBadge(license)}]${renderLicenseLink(license)}`;
+}
+
+if (license == 'BSD 2-Clause License'){
+  return `[![License]${renderLicenseBadge(license)}]${renderLicenseLink(license)}`;
+}
+
+if(license === 'CC0'){
+  return `[![License: CC0-1.0]${renderLicenseBadge(license)}]${renderLicenseLink(license)}`;
+}
+
+if(license == 'Eclipse Public License 1.0'){
+  return `[![License]${renderLicenseBadge(license)}]${renderLicenseLink(license)}`;
+
+}
+
+if (license == 'The MIT License'){
+  return `[![License: MIT]${renderLicenseBadge(license)}]${renderLicenseLink(license)}`;
+}
+
+if (license == ''){
+return '';
+}
+
+}
+
+
+
+
+
+
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
