@@ -13,13 +13,13 @@
 - [Questions](#questions)
 
 ## Description
-Tool for generating a ReadME
+Tool fo generating a ReadME
 
 ## Installation instructions 
  N/A
 
 ## Usage
-Open terminal, CD into folders, navigate files, begin writing ReadME
+Open terminal cd into folders, navigate files, open and begin writing ReadME answers
 
 ## Contributing
 N/A
@@ -27,4 +27,7 @@ N/A
 ## Testing instructions
 N/A
 
-NaN
+## Questions
+[Github profile](https://github.com/asosadia88)
+If you have any questions, please [email me](mailto:annielys.sosa@gmail.com)
+
