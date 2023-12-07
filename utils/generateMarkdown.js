@@ -110,10 +110,16 @@ function generateMarkdown(data) {
   var title = `# ${data.title}\n\n`;
   var license = ` ## License\n${renderLicenseSection(data.license)}\n\n`
   var table_of_contents = `# Table of contents\n- [Description](#description)\n` +
-    `_ [Installation instructions](#installation-instructions)\n- [Usage](#usage)\n- [Contributing](#contributing)\n` + 
+    '_ [Installation instructions](#installation-instructions)\n- [Usage](#usage)\n- [Contributing](#contributing)\n' + 
+    '_ [Testing Instructions](#testing-instructions)\n- [License](#license)\n- [Questions](#questions)\n\n';
+var description = `##Description\n${data.description}\n\n`;
+var installation = `## Installation instructions \n ${data.installation}\n\n`;
+var usage = `## Usage\n${data.usage}\n\n`;
+var contribution = `##Contributing\n${data.contributing}\n\n`;
+var tests = `##Testing Instructions\n${data.tests}\n\n`;
+var questions = `## Questions\n[Github profile](https://github.com/${data.github_username})\n If you have any questions, please [email me] (mailto:${data.email})\n\n`;
+return title + license + table_of_contents + description + installation + usage + contribution + tests + questions;
 
-
-`;
 }
 
 module.exports = generateMarkdown;
