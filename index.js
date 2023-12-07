@@ -5,6 +5,7 @@ const generateMarkdown = require('./utils/generateMarkdown');
 const { default: inquirer } = require('inquirer');
 
 // TODO: Create an array of questions for user input
+// these will be the questions that pop up for the use to generate their custom ReadME
 const questions = [
 {
     type: 'input',
