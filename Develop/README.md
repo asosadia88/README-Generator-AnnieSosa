@@ -1,4 +1,4 @@
-# gdfg
+# Annie ReadME Generator
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -13,18 +13,18 @@
 - [Questions](#questions)
 
 ## Description
-dfg
+Tool for generating a ReadME
 
 ## Installation instructions 
- fdgfdg
+ N/A
 
 ## Usage
-dfg
+Open terminal, CD into folders, navigate files, begin writing ReadME
 
 ## Contributing
-fdg
+N/A
 
 ## Testing instructions
-fdg
+N/A
 
 NaN

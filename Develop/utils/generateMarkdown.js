@@ -95,7 +95,7 @@ function generateMarkdown(data) {
   var contribution = `## Contributing\n${data.contributing}\n\n`;
   var tests = `## Testing instructions\n${data.tests}\n\n`;
   var questions = `## Questions\n[Github profile](https://github.com/${data.github_username})\nIf you have any questions, please [email me](mailto:${data.email})\n\n`;
-  return title + license + table_of_contents + description + installation + usage + contribution + tests +  + questions;
+  return title + license + table_of_contents + description + installation + usage + contribution + tests + questions;
 }
 
 module.exports = generateMarkdown;
